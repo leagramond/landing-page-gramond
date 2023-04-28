@@ -1,0 +1,114 @@
+/* Write some CSS below */
+body {
+  font-family: Overpass;
+  color: #404042;
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  font-family: Chivo;
+}
+
+a {
+  color: #1A48E3;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+}
+
+a:hover {
+  color: #CE2FAE;
+}
+
+ul {
+	list-style: none;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/back.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 45px;
+  margin: 0;
+}
+
+.banner p {
+  color: white;
+  font-size: 24px;
+}
+
+.button-blue {
+  background-color: white;
+  color: #bf187f ;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.button-blue:hover {
+  background-color: #e3e3e4;
+  color: #bf187f ;
+}
+
+.part1 {
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #bf187f ;
+  color: white;
+}
+
+.part2 {
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  text-align: center; 
+  color: black ;
+}
+
+.part3 {
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #bf187f ;
+  color: white ;
+}
+
+.part4 {
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.final-button {
+  background-color: white;
+  color: #bf187f ;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.final-button:hover {
+  background-color: #e3e3e4;
+  color: #bf187f ;
+}
+
+.footer {
+	 background-color: #bf187f ;
+	 padding: 50px 0;
+	 text-align: center;
+	 color: white ;
+}
